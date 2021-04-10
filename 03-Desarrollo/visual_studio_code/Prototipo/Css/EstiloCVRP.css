@@ -1,0 +1,56 @@
+body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(4, 15, 58, 1) 100%);
+    font-family: candara;
+}
+
+.ul-menu {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+}
+
+.li-menu {
+    border: 10px;
+    padding: 10px 25px;
+    color: white;
+    float: left;
+    overflow: hidden;
+}
+
+.li-menu:hover {
+    background-color: #111;
+    cursor: pointer;
+}
+
+.Categoria:hover .Categoria-content {
+    display: block;
+}
+
+.Categoria-content {
+    display: none;
+    position: absolute;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Categoria-content-li {
+    list-style: none;
+    padding: 5px 20px;
+}
+
+.Categoria-content-li:hover {
+    background-color: #111;
+    cursor: pointer;
+}
+
+.btn-menu {
+    background-color: #0D268B;
+    border: none;
+    width: 110px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}

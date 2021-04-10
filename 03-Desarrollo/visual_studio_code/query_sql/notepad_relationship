@@ -1,0 +1,39 @@
+tbl_tipodocumento * a 1 tbl_usuario 
+alter table tbl_tipodocumento add fk_no_documento int not null;
+alter table tbl_tipodocumento add foreign key (fk_no_documento) references tbl_usuario (no_documento) on update cascade;
+
+
+tbl_perfil * a 1 tbl_usuario
+alter table tbl_perfil add fk_no_documento_perf int not null;
+alter table tbl_perfil add foreign key (fk_no_documento_perf) references tbl_usuario (no_documento) on update cascade;
+
+
+
+tbl_estado_cta_usr * a 1 tbl_perfil
+alter table tbl_estado_cta_usr add fk_perfil_id int not null;
+alter table tbl_estado_cta_usr add foreign key (fk_perfil_id) references tbl_perfil (id_perfil) on update cascade;
+
+
+tbl_factura * a 1 tbl_metodo_pago
+alter table tbl_factura add fk_metodo_pag int not null;
+alter table tbl_factura add foreign key (fk_metodo_pag) references tbl_metodo_pago (id_metodopago) on update cascade;
+
+tbl_factura * a * tbl_producto
+
+alter table tbl_factura add fk_id_producto int not null;
+alter table tbl_factura add foreign key (fk_id_prod) references tbl_producto (id_prod) on update cascade; 
+
+
+
+tbl_factura 1 a 1 tbl_registro_cv
+alter table tbl_factura add fk_id_registro_cv int not null;
+alter table tbl_factura add foreign key (fk_id_registro_cv) references tbl_registro_cv (id_registro_cv) on update cascade;
+
+
+
+tbl_metodo_pago   tbl_metodopago_tarjetacredito
+
+
+
+
+
