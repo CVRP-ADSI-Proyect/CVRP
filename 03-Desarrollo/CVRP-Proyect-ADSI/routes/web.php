@@ -5,8 +5,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UsuarioController;
+
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
+
+use App\Http\Controllers\PaymentMethodController;
 
 Route::get('/', function () { return view('index');})->name('index');
 
@@ -18,9 +21,13 @@ Route::get('/roles',[RoleController::class,'index'])->name('roles.index');
 Route::get('/details',[UsuarioController::class,'detail'])->name('roles.details');
 Route::get('/roles/edit/{documento}',[UsuarioController::class,'edit'])->name('roles.edit');
 
+
 //controladores de modelo: Category
 //Route::resource('categorias',[CategoryController::class]);
 Route::get('/categorias',[CategoryController::class,'index']);
 
 //controladores de modelo: Product
-//Route::resource('productos',[ProductController::class]);
+Route::resource('productos',[ProductController::class]);
+
+//Ruta url de metodos de pago
+Route::resource('paymentmethod',[PaymentMethodController::class]);
