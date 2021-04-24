@@ -27,7 +27,7 @@ Route::get('/roles/edit/{documento}',[UsuarioController::class,'edit'])->name('r
 Route::get('/categorias',[CategoryController::class,'index']);
 
 //controladores de modelo: Product
-Route::resource('productos',[ProductController::class]);
+Route::resource('productos',ProductController::class);
 
 //Ruta url de metodos de pago
-Route::resource('paymentmethod',[PaymentMethodController::class]);
+Route::resource('paymentmethod',PaymentMethodController::class);
