@@ -12,6 +12,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PaymentMethodController;
 
 Route::get('/', function () { return view('index');})->name('index');
+Route::get('/index', function () { return view('index');})->name('index');
 
 
 //Ruta con uri de conexión a LandingController
