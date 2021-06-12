@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-})->name('home');
+})->name('main');
 
 Route::get('/products', function () {
     return view('products');
@@ -32,3 +32,7 @@ Route::get('/contact', function () {
 Route::get('/login', function () {
     return view('login');
 })->name('login');
+
+Auth::routes();
+
+Route::get('/sesion', [App\Http\Controllers\HomeController::class, 'index'])->name('sesion');

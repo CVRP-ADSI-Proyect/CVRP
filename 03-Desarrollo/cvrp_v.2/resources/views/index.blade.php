@@ -14,22 +14,6 @@
 	-->
 	<!--<link rel="stylesheet/less" type="text/css" href="themes/less/bootshop.less">
 	<script src="themes/js/less.js" type="text/javascript"></script> -->
-	
-<!-- Bootstrap style --> 
-<link id="callCss" rel="stylesheet" href="themes/bootshop/bootstrap.min.css" media="screen"/>
-    <link href="themes/css/base.css" rel="stylesheet" media="screen"/>
-<!-- Bootstrap style responsive -->	
-	<link href="themes/css/bootstrap-responsive.min.css" rel="stylesheet"/>
-	<link href="themes/css/font-awesome.css" rel="stylesheet" type="text/css">
-<!-- Google-code-prettify -->	
-	<link href="themes/js/google-code-prettify/prettify.css" rel="stylesheet"/>
-<!-- fav and touch icons -->
-    <link rel="shortcut icon" href="themes/images/ico/logo_cvrp.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="themes/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="themes/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="themes/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="themes/images/ico/apple-touch-icon-57-precomposed.png">
-	<style type="text/css" id="enject"></style>
   </head>
 <body>
 <!-- Header====================================================================== -->
@@ -64,7 +48,7 @@
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 				</div>
-			
+
 		  </div>
 		  </div>
 		   <div class="item">
@@ -74,7 +58,7 @@
 				  <h4>Second Thumbnail label</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 				</div>
-		   
+
 		  </div>
 		  </div>
 		   <div class="item">
@@ -98,7 +82,7 @@
 		</div>
 		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 		<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-	  </div> 
+	  </div>
 </div>
 <div id="mainBody">
 	<div class="container">
@@ -106,7 +90,7 @@
 <!-- Sidebar ================================================== -->
 @include('sidebar.sidebar')
 <!-- Sidebar end=============================================== -->
-		<div class="span9">		
+		<div class="span9">
 			<div class="well well-small">
 			<h4>Featured Products <small class="pull-right">200+ featured products</small></h4>
 			<div class="row-fluid">
@@ -291,10 +275,10 @@
 					<a  href="product_details.html"><img src="themes/images/products/6.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
-					  <p> 
-						Lorem Ipsum is simply dummy text. 
+					  <p>
+						Lorem Ipsum is simply dummy text.
 					  </p>
-					 
+
 					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 					</div>
 				  </div>
@@ -304,8 +288,8 @@
 					<a  href="product_details.html"><img src="themes/images/products/7.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
-					  <p> 
-						Lorem Ipsum is simply dummy text. 
+					  <p>
+						Lorem Ipsum is simply dummy text.
 					  </p>
 					 <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 					</div>
@@ -316,8 +300,8 @@
 					<a  href="product_details.html"><img src="themes/images/products/8.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
-					  <p> 
-						Lorem Ipsum is simply dummy text. 
+					  <p>
+						Lorem Ipsum is simply dummy text.
 					  </p>
 					   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 					</div>
@@ -328,8 +312,8 @@
 					<a  href="product_details.html"><img src="themes/images/products/9.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
-					  <p> 
-						Lorem Ipsum is simply dummy text. 
+					  <p>
+						Lorem Ipsum is simply dummy text.
 					  </p>
 					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 					</div>
@@ -340,8 +324,8 @@
 					<a  href="product_details.html"><img src="themes/images/products/10.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
-					  <p> 
-						Lorem Ipsum is simply dummy text. 
+					  <p>
+						Lorem Ipsum is simply dummy text.
 					  </p>
 					  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 					</div>
@@ -352,14 +336,14 @@
 					<a  href="product_details.html"><img src="themes/images/products/11.jpg" alt=""/></a>
 					<div class="caption">
 					  <h5>Product name</h5>
-					  <p> 
-						Lorem Ipsum is simply dummy text. 
+					  <p>
+						Lorem Ipsum is simply dummy text.
 					  </p>
 					   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 					</div>
 				  </div>
 				</li>
-			  </ul>	
+			  </ul>
 
 		</div>
 		</div>
@@ -388,7 +372,7 @@
 		<a href="themes/css/#" name="cyborg"><img src="themes/switch/images/clr/cyborg.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="cerulean"><img src="themes/switch/images/clr/cerulean.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="journal"><img src="themes/switch/images/clr/journal.png" alt="bootstrap business templates"></a>
-		<a href="themes/css/#" name="readable"><img src="themes/switch/images/clr/readable.png" alt="bootstrap business templates"></a>	
+		<a href="themes/css/#" name="readable"><img src="themes/switch/images/clr/readable.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="simplex"><img src="themes/switch/images/clr/simplex.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="slate"><img src="themes/switch/images/clr/slate.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="spacelab"><img src="themes/switch/images/clr/spacelab.png" alt="bootstrap business templates"></a>
@@ -407,30 +391,22 @@
 		<a href="themes/css/#" name="pattern8"><img src="themes/switch/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern9"><img src="themes/switch/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern10"><img src="themes/switch/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
-		
+
 		<a href="themes/css/#" name="pattern11"><img src="themes/switch/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern12"><img src="themes/switch/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern13"><img src="themes/switch/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern14"><img src="themes/switch/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern15"><img src="themes/switch/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
-		
+
 		<a href="themes/css/#" name="pattern16"><img src="themes/switch/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern17"><img src="themes/switch/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern18"><img src="themes/switch/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern19"><img src="themes/switch/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern20"><img src="themes/switch/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
-		 
+
 	</div>
 	</div>
 </div>
 <span id="themesBtn"></span>
 </body>
 </html>
-
-<!-- Placed at the end of the document so the pages load faster ============================================= -->
-<script src="themes/js/jquery.js" type="text/javascript"></script>
-	<script src="themes/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="themes/js/google-code-prettify/prettify.js"></script>
-	
-	<script src="themes/js/bootshop.js"></script>
-    <script src="themes/js/jquery.lightbox-0.5.js"></script>
