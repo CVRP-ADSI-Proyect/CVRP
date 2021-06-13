@@ -52,10 +52,10 @@
     </form>
     <ul id="topMenu" class="nav pull-right">
 	 <li class=""><a href="{{ url('/offer')}}">Ofertas especiales</a></li>
-	 <li class=""><a href="normal.html">Test</a></li>
+	 {{-- <li class=""><a href="normal.html">Test</a></li> --}}
 	 <li class=""><a href="{{url('/contact')}}">Contactanos</a></li>
 	 <li class="">
-	 <a type="submit" href="{{ route ('sesion')}}" role="button"><span class="btn btn-large btn-success">ingresar</span></a>
+	 <a type="submit" href="{{ route ('login')}}" role="button"><span class="btn btn-large btn-success">ingresar</span></a>
 	</div>
 	</li>
     </ul>

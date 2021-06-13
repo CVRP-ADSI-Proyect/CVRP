@@ -35,4 +35,4 @@ Route::get('/login', function () {
 
 Auth::routes();
 
-Route::get('/sesion', [App\Http\Controllers\HomeController::class, 'index'])->name('sesion');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
