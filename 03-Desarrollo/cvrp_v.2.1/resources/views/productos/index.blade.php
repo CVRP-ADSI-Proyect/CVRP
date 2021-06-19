@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+
+<form action="{{route('producto.index')}}" method="get">
+@csrf
+<input type="text" name="name_product" id="" placeholder="Escriba nombre de Producto: Chaqueta">
+<button type="submit" class="btn btn-success">Filtrar</button>
+</form>
+
+
+
+
     <a class="btn btn-info mt-4 mx-4" href="{{route('producto.create')}}">Crear Producto</a>
     <table class="table table-bordered mx-4 my-4">
     <thead>

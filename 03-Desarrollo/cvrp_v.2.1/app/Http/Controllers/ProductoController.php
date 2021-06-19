@@ -12,9 +12,12 @@ use Illuminate\Support\Facades\Storage;
 
 class ProductoController extends Controller
 {
-    public function index(){
+    public function index(Request $request){
 
-        $productos = Producto::all();
+      
+        $productos=Producto::when($request->name_product,function($q) use ($request){
+            $q->where('NombreProducto','LIKE','%'.$request->name_product.'%');
+      })->get();
 
         return view('productos.index',compact('productos'));
 
