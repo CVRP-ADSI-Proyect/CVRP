@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\Auth;
+
+use App\Http\Controllers\ProductoController;
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,3 +42,9 @@ Route::get('/login', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+// Productos
+Route::get('productos',[ProductoController::class,'index'])->name('producto.index');
+Route::get('producto/crear',[ProductoController::class,'create'])->name('producto.create');
+Route::post('producto',[ProductoController::class,'store'])->name('producto.store');
