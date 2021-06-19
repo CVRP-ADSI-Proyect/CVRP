@@ -21,7 +21,7 @@ class CreateProductosTable extends Migration
             $table->string('descripcion');
             $table->float('valor',8,0);
             $table->string('imagen');
-            $table->boolean('disponible');
+            $table->string('disponible');
             $table->bigInteger('categoria_id')->unsigned();
             $table->foreign('categoria_id')->references('id')->on('categoria');
             $table->timestamps();

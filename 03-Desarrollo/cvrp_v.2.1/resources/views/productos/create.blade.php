@@ -9,7 +9,7 @@
 </head>
 <body>
  
-<form action="{{route('producto.store')}}" method="post">
+<form action="{{route('producto.store')}}" method="post" enctype="multipart/form-data">
 
 @csrf
 
@@ -33,8 +33,8 @@
 
 <label for="disponible">disponible</label>
 <select name="disponible" id="" required>
-    <option value="1">Si</option>
-    <option value="0">No</option>
+    <option value="si">Si</option>
+    <option value="no">No</option>
 </select>
 
 <label for="categoria">categoria</label>

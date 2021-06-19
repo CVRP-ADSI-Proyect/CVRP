@@ -48,3 +48,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('productos',[ProductoController::class,'index'])->name('producto.index');
 Route::get('producto/crear',[ProductoController::class,'create'])->name('producto.create');
 Route::post('producto',[ProductoController::class,'store'])->name('producto.store');
+Route::get('producto/{id}',[ProductoController::class,'show'])->name('producto.show');
+Route::get('producto/editar/{id}',[ProductoController::class,'edit'])->name('producto.edit');
+Route::put('producto/{id}',[ProductoController::class,'update'])->name('producto.update');
+Route::delete('producto/{id}',[ProductoController::class,'destroy'])->name('producto.destroy');
+
+
