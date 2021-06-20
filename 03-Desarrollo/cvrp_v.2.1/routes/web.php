@@ -23,10 +23,6 @@ Route::get('/', function () {
     return view('index');
 })->name('main');
 
-Route::get('/products', function () {
-    return view('products');
-})->name('products.list');
-
 Route::get('/offer', function () {
     return view('special_offer');
 })->name('offer');

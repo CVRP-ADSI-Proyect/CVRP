@@ -14,14 +14,14 @@
 	-->
 	<!--<link rel="stylesheet/less" type="text/css" href="themes/less/bootshop.less">
 	<script src="themes/js/less.js" type="text/javascript"></script> -->
-	
-<!-- Bootstrap style --> 
+
+<!-- Bootstrap style -->
 <link id="callCss" rel="stylesheet" href="themes/bootshop/bootstrap.min.css" media="screen"/>
     <link href="css/base.css" rel="stylesheet" media="screen"/>
-<!-- Bootstrap style responsive -->	
+<!-- Bootstrap style responsive -->
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet"/>
 	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-<!-- Google-code-prettify -->	
+<!-- Google-code-prettify -->
 	<link href="js/google-code-prettify/prettify.css" rel="stylesheet"/>
 
 <!-- fav and touch icons -->
@@ -42,307 +42,59 @@
 <!-- Sidebar ================================================== -->
 @include('sidebar.sidebar')
 <!-- Sidebar end=============================================== -->
-	<div class="span9">
-    <ul class="breadcrumb">
-		<li><a href="index.html">Home</a> <span class="divider">/</span></li>
-		<li class="active">Products Name</li>
-    </ul>
-	<h3> Products Name <small class="pull-right"> 40 products are available </small></h3>	
-	<hr class="soft"/>
-	<p>
-		Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies - that is why our goods are so popular and we have a great number of faithful customers all over the country.
-	</p>
-	<hr class="soft"/>
-	<form class="form-horizontal span6">
-		<div class="control-group">
-		  <label class="control-label alignL">Sort By </label>
-			<select>
-              <option>Priduct name A - Z</option>
-              <option>Priduct name Z - A</option>
-              <option>Priduct Stoke</option>
-              <option>Price Lowest first</option>
-            </select>
-		</div>
-	  </form>
-	  
+
 <div id="myTab" class="pull-right">
  <a href="#listView" data-toggle="tab"><span class="btn btn-large"><i class="icon-list"></i></span></a>
  <a href="#blockView" data-toggle="tab"><span class="btn btn-large btn-primary"><i class="icon-th-large"></i></span></a>
 </div>
 <br class="clr"/>
-<div class="tab-content">
-	<div class="tab-pane" id="listView">
-		<div class="row">	  
-			<div class="span2">
-				<img src="themes/images/products/3.jpg" alt=""/>
-			</div>
-			<div class="span4">
-				<h3>New | Available</h3>				
-				<hr class="soft"/>
-				<h5>Product Name </h5>
-				<p>
-				Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies - 
-				that is why our goods are so popular..
-				</p>
-				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
-				<br class="clr"/>
-			</div>
-			<div class="span3 alignR">
-			<form class="form-horizontal qtyFrm">
-			<h3> $140.00</h3>
-			<label class="checkbox">
-				<input type="checkbox">  Adds product to compair
-			</label><br/>
-			
-			  <a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-			  <a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
-			
-				</form>
-			</div>
-		</div>
-		<hr class="soft"/>
-		<div class="row">	  
-			<div class="span2">
-				<img src="themes/images/products/1.jpg" alt=""/>
-			</div>
-			<div class="span4">
-				<h3>New | Available</h3>				
-				<hr class="soft"/>
-				<h5>Product Name </h5>
-				<p>
-				Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies - 
-				that is why our goods are so popular..
-				</p>
-				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
-				<br class="clr"/>
-			</div>
-			<div class="span3 alignR">
-			<form class="form-horizontal qtyFrm">
-				<h3> $140.00</h3>
-				<label class="checkbox">
-				<input type="checkbox">  Adds product to compair
-				</label><br/>
-				
-				<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-				<a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
-				
-			</form>
-			</div>
-		</div>
-		<hr class="soft"/>
-		<div class="row">	  
-			<div class="span2">
-				<img src="themes/images/products/3.jpg" alt=""/>
-			</div>
-			<div class="span4">
-				<h3>New | Available</h3>				
-				<hr class="soft"/>
-				<h5>Product Name </h5>
-				<p>
-				Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies - 
-				that is why our goods are so popular..
-				</p>
-				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
-				<br class="clr"/>
-			</div>
-			<div class="span3 alignR">
-			<form class="form-horizontal qtyFrm">
-				<h3> $140.00</h3>
-				<label class="checkbox">
-					<input type="checkbox">  Adds product to compair
-				</label><br/>
-				
-				  <a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-				  <a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
-				
-			</form>
-			</div>
-		</div>
-		<hr class="soft"/>
-		<div class="row">	  
-			<div class="span2">
-				<img src="themes/images/products/3.jpg" alt=""/>
-			</div>
-			<div class="span4">
-				<h3>New | Available</h3>				
-				<hr class="soft"/>
-				<h5>Product Name </h5>
-				<p>
-				Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies - 
-				that is why our goods are so popular..
-				</p>
-				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
-				<br class="clr"/>
-			</div>
-			<div class="span3 alignR">
-				<form class="form-horizontal qtyFrm">
-				<h3> $140.00</h3>
-				<label class="checkbox">
-				<input type="checkbox">  Adds product to compair
-				</label><br/>
-				
-				<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-				<a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
-				
-				</form>
-			</div>
-		</div>
-	
-		<hr class="soft"/>
-		<div class="row">	  
-			<div class="span2">
-				<img src="themes/images/products/3.jpg" alt=""/>
-			</div>
-			<div class="span4">
-				<h3>New | Available</h3>				
-				<hr class="soft"/>
-				<h5>Product Name </h5>
-				<p>
-				Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies - 
-				that is why our goods are so popular..
-				</p>
-				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
-				<br class="clr"/>
-			</div>
-			<div class="span3 alignR">
-				<form class="form-horizontal qtyFrm">
-				<h3> $140.00</h3>
-				<label class="checkbox">
-				<input type="checkbox">  Adds product to compair
-				</label><br/>
-				<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-				<a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
-				</form>
-			</div>
-		</div>
-		<hr class="soft"/>
-		<div class="row">	  
-			<div class="span2">
-				<img src="themes/images/products/3.jpg" alt=""/>
-			</div>
-			<div class="span4">
-				<h3>New | Available</h3>				
-				<hr class="soft"/>
-				<h5>Product Name </h5>
-				<p>
-				Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies - 
-				that is why our goods are so popular..
-				</p>
-				<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
-				<br class="clr"/>
-			</div>
-			<div class="span3 alignR">
-				<form class="form-horizontal qtyFrm">
-				<h3> $140.00</h3>
-				<label class="checkbox">
-				<input type="checkbox">  Adds product to compair
-				</label><br/>
-				
-				<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-				<a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
-				
-				</form>
-			</div>
-		</div>
-		<hr class="soft"/>
-	</div>
 
-	<div class="tab-pane  active" id="blockView">
-		<ul class="thumbnails">
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""/></a>
-				<div class="caption">
-				  <h5>Manicure &amp; Pedicure</h5>
-				  <p> 
-					I'm a paragraph. Click here 
-				  </p>
-				   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
-				</div>
-			  </div>
-			</li>
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""/></a>
-				<div class="caption">
-				  <h5>Manicure &amp; Pedicure</h5>
-				  <p> 
-					I'm a paragraph. Click here 
-				  </p>
-				   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
-				</div>
-			  </div>
-			</li>
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""/></a>
-				<div class="caption">
-				  <h5>Manicure &amp; Pedicure</h5>
-				  <p> 
-					I'm a paragraph. Click here 
-				  </p>
-				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
-				</div>
-			  </div>
-			</li>
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""/></a>
-				<div class="caption">
-				  <h5>Manicure &amp; Pedicure</h5>
-				  <p> 
-					I'm a paragraph. Click here 
-				  </p>
-				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
-				</div>
-			  </div>
-			</li>
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""/></a>
-				<div class="caption">
-				  <h5>Manicure &amp; Pedicure</h5>
-				  <p> 
-					I'm a paragraph. Click here 
-				  </p>
-				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
-				</div>
-			  </div>
-			</li>
-			<li class="span3">
-			  <div class="thumbnail">
-				<a href="product_details.html"><img src="themes/images/products/3.jpg" alt=""/></a>
-				<div class="caption">
-				  <h5>Manicure &amp; Pedicure</h5>
-				  <p> 
-					I'm a paragraph. Click here 
-				  </p>
-				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
-				</div>
-			  </div>
-			</li>
-		  </ul>
-	<hr class="soft"/>
-	</div>
-</div>
+        <form action="{{route('producto.index')}}" method="get">
+            @csrf
+            <input type="text" name="name_product" id="" placeholder="Escriba nombre de Producto: ">
+            <button type="submit" class="btn btn-success">Filtrar</button>
+        </form>
 
-	<a href="compair.html" class="btn btn-large pull-right">Compair Product</a>
-	<div class="pagination">
-			<ul>
-			<li><a href="#">&lsaquo;</a></li>
-			<li><a href="#">1</a></li>
-			<li><a href="#">2</a></li>
-			<li><a href="#">3</a></li>
-			<li><a href="#">4</a></li>
-			<li><a href="#">...</a></li>
-			<li><a href="#">&rsaquo;</a></li>
-			</ul>
-			</div>
-			<br class="clr"/>
-</div>
-</div>
-</div>
-</div>
+        <a class="btn btn-info mt-4 mx-4" href="{{route('producto.create')}}">Crear Producto</a>
+        <table class="table table-bordered mx-4 my-4">
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>NombreProducto</th>
+                <th>cantidad</th>
+                <th>estado</th>
+                <th>descripcion</th>
+                <th>valor</th>
+                <th>imagen</th>
+                <th>disponible</th>
+                <th>categoria</th>
+                <th>Acciones</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach($productos as $producto)
+                <tr>
+                    <th>{{$producto->id}}</th>
+                    <th>{{$producto->NombreProducto}}</th>
+                    <th>{{$producto->cantidad}}</th>
+                    <th>{{$producto->estado}}</th>
+                    <th>{{$producto->descripcion}}</th>
+                    <th>{{$producto->valor}}</th>
+                    <th><img width="200" height="200" src="{{asset('storage').'/'. $producto->imagen}}" alt="{{$producto->NombreProducto}}"></th>
+                    <th>{{$producto->disponible}}</th>
+                    <th>{{$producto->categoria->NombreCategoria}}</th>
+
+                    <th>
+                        <a class="btn btn-warning" href="{{route('producto.edit',$producto->id)}}">Editar</a>
+                        <a class="btn btn-info" href="{{route('producto.show',$producto->id)}}">Mostrar</a>
+                        <form action="{{route('producto.destroy',$producto->id)}}" method="post">
+                            @csrf
+                            @method('DELETE')
+                            <button class="btn btn-danger" type="submit">Eliminar</button>
+                        </form>
+                    </th>
+                </tr>
+            @endforeach
 <!-- MainBody End ============================= -->
 <!-- Footer ================================================================== -->
 	@include('footer.footer')
@@ -366,7 +118,7 @@
 		<a href="themes/css/#" name="cyborg"><img src="themes/switch/images/clr/cyborg.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="cerulean"><img src="themes/switch/images/clr/cerulean.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="journal"><img src="themes/switch/images/clr/journal.png" alt="bootstrap business templates"></a>
-		<a href="themes/css/#" name="readable"><img src="themes/switch/images/clr/readable.png" alt="bootstrap business templates"></a>	
+		<a href="themes/css/#" name="readable"><img src="themes/switch/images/clr/readable.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="simplex"><img src="themes/switch/images/clr/simplex.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="slate"><img src="themes/switch/images/clr/slate.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="spacelab"><img src="themes/switch/images/clr/spacelab.png" alt="bootstrap business templates"></a>
@@ -385,19 +137,19 @@
 		<a href="themes/css/#" name="pattern8"><img src="themes/switch/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern9"><img src="themes/switch/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern10"><img src="themes/switch/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
-		
+
 		<a href="themes/css/#" name="pattern11"><img src="themes/switch/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern12"><img src="themes/switch/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern13"><img src="themes/switch/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern14"><img src="themes/switch/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern15"><img src="themes/switch/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
-		
+
 		<a href="themes/css/#" name="pattern16"><img src="themes/switch/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern17"><img src="themes/switch/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern18"><img src="themes/switch/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern19"><img src="themes/switch/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern20"><img src="themes/switch/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
-		 
+
 	</div>
 	</div>
 </div>
@@ -409,6 +161,6 @@
 <script src="js/jquery.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="js/google-code-prettify/prettify.js"></script>
-	
+
 	<script src="js/bootshop.js"></script>
     <script src="js/jquery.lightbox-0.5.js"></script>

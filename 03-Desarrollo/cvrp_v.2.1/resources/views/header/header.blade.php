@@ -14,22 +14,8 @@
     <link rel="apple-touch-icon-precomposed" href="themes/images/ico/apple-touch-icon-57-precomposed.png">
 	<style type="text/css" id="enject"></style>
 
-<div id="header">
-<div class="container">
-<div id="welcomeLine" class="row">
-	<div class="span6">Bienvenido!<strong> #</strong></div>
-	<div class="span6">
-	<div class="pull-right">
-		<!-- <a href="product_summary.html"><span class="">Fr</span></a> -->
-		<a href="product_summary.html"><span class="">Es</span></a>
-		<!-- <span class="btn btn-mini">En</span> -->
-		<!-- <a href="product_summary.html"><span>&pound;</span></a> -->
-		<span class="btn btn-mini">$155.00</span>
-		<!-- <a href="product_summary.html"><span class="">$</span></a> -->
-		<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ # ] Productos en el carrito </span> </a>
-	</div>
-	</div>
-</div>
+<div id="header" class="">
+<div class="container" >
 <div id="logoArea" class="navbar">
 <a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
 	<span class="icon-bar"></span>
@@ -54,6 +40,7 @@
 	 <li class=""><a href="{{ url('/offer')}}">Ofertas especiales</a></li>
 	 {{-- <li class=""><a href="normal.html">Test</a></li> --}}
 	 <li class=""><a href="{{url('/contact')}}">Contactanos</a></li>
+
 	 <li class="">
 	 <a type="submit" href="{{ route ('login')}}" role="button"><span class="btn btn-large btn-success">ingresar</span></a>
 	</div>
