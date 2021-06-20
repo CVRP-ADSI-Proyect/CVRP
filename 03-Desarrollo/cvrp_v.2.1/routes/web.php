@@ -23,6 +23,8 @@ Route::get('/', function () {
     return view('index');
 })->name('main');
 
+
+
 Route::get('/offer', function () {
     return view('special_offer');
 })->name('offer');
