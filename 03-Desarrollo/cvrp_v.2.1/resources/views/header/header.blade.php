@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon-precomposed" href="themes/images/ico/apple-touch-icon-57-precomposed.png">
 	<style type="text/css" id="enject"></style>
 
-<div id="header" class="">
+<div id="header">
 <div class="container" >
 <div id="logoArea" class="navbar">
 <a id="smallScreen" data-target="#topMenu" data-toggle="collapse" class="btn btn-navbar">
@@ -40,16 +40,14 @@
 	 <li class=""><a href="{{ url('/offer')}}">Ofertas especiales</a></li>
 	 {{-- <li class=""><a href="normal.html">Test</a></li> --}}
 	 <li class=""><a href="{{url('/contact')}}">Contactanos</a></li>
-
 	 <li class="">
 	 <a type="submit" href="{{ route ('login')}}" role="button"><span class="btn btn-large btn-success">ingresar</span></a>
-	</div>
-	</li>
+     </li>
     </ul>
   </div>
 </div>
 </div>
-</div>
+
 
 <!-- Placed at the end of the document so the pages load faster ============================================= -->
 <script src="themes/js/jquery.js" type="text/javascript"></script>
