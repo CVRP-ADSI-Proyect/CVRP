@@ -19,7 +19,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link rel="shortcut icon" href="themes/images/ico/logo_cvrp.ico">
+    <link rel="shortcut icon" href="{{URL::asset('themes/images/ico/logo_cvrp.ico')}}">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -28,8 +28,7 @@
 <div id="app">
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
-            <a class="brand" href="{{route ('main')}}"><img src="themes/images/logo_cvrp2.webp"
-                                                            alt="Bootsshop"/></a>
+            <a class="brand" href="{{route ('main')}}"><img src="{{URL::asset('themes/images/logo_cvrp2.webp')}}" alt="CVRP - NUEVO MILENIO"/></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="{{ __('Toggle navigation') }}">
@@ -48,15 +47,14 @@
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
-                                <a class="nav-link btn btn-secondary" style="color: white;" href="{{ route('login') }}">Inicio
-                                    Sesion</a>
+                                <a class="nav-link btn btn-secondary" style="color: white;" href="{{ route('login') }}">Iniciar Sesion</a>
                             </li>
                         @endif
 
                         @if (Route::has('register'))
                             <li class="nav-item">
                                 <a class="nav-link btn btn-primary" style="color: white;margin-left: 20px;"
-                                   href="{{ route('register') }}">Registro</a>
+                                   href="{{ route('register') }}">Registrarse</a>
                             </li>
                         @endif
                     @else
@@ -70,7 +68,7 @@
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
+                                    {{ __('Cerrar Sesión') }}
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

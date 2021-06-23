@@ -38,13 +38,13 @@
 	<div class="span6">Welcome!<strong> User</strong></div>
 	<div class="span6">
 	<div class="pull-right">
-		<a href="product_summary.html"><span class="">Fr</span></a>
-		<a href="product_summary.html"><span class="">Es</span></a>
+		<a href="product_summary.blade.php"><span class="">Fr</span></a>
+		<a href="product_summary.blade.php"><span class="">Es</span></a>
 		<span class="btn btn-mini">En</span>
-		<a href="product_summary.html"><span>&pound;</span></a>
+		<a href="product_summary.blade.php"><span>&pound;</span></a>
 		<span class="btn btn-mini">$155.00</span>
-		<a href="product_summary.html"><span class="">$</span></a>
-		<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a>
+		<a href="product_summary.blade.php"><span class="">$</span></a>
+		<a href="product_summary.blade.php"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a>
 	</div>
 	</div>
 </div>
@@ -110,7 +110,7 @@
 	<div class="row">
 <!-- Sidebar ================================================== -->
 	<div id="sidebar" class="span3">
-		<div class="well well-small"><a id="myCart" href="product_summary.html"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div>
+		<div class="well well-small"><a id="myCart" href="product_summary.blade.php"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div>
 		<ul id="sideManu" class="nav nav-tabs nav-stacked">
 			<li class="subMenu open"><a> ELECTRONICS [230]</a>
 				<ul>
@@ -152,14 +152,14 @@
 			<img src="themes/images/products/panasonic.jpg" alt="Bootshop panasonoc New camera"/>
 			<div class="caption">
 			  <h5>Panasonic</h5>
-				<h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
+				<h4 style="text-align:center"><a class="btn" href="product_details.blade.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 			</div>
 		  </div><br/>
 			<div class="thumbnail">
 				<img src="themes/images/products/kindle.png" title="Bootshop New Kindel" alt="Bootshop Kindel">
 				<div class="caption">
 				  <h5>Kindle</h5>
-				    <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
+				    <h4 style="text-align:center"><a class="btn" href="product_details.blade.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 				</div>
 			  </div><br/>
 			<div class="thumbnail">
@@ -319,7 +319,7 @@
 						Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies -
 						that is why our goods are so popular..
 						</p>
-						<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+						<a class="btn btn-small pull-right" href="product_details.blade.php">View Details</a>
 						<br class="clr"/>
 					</div>
 					<div class="span3 alignR">
@@ -329,8 +329,8 @@
 						<input type="checkbox">  Adds product to compair
 					</label><br/>
 					<div class="btn-group">
-					  <a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-					  <a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
+					  <a href="product_details.blade.php" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+					  <a href="product_details.blade.php" class="btn btn-large"><i class="icon-zoom-in"></i></a>
 					 </div>
 						</form>
 					</div>
@@ -348,7 +348,7 @@
 						Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies -
 						that is why our goods are so popular..
 						</p>
-						<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+						<a class="btn btn-small pull-right" href="product_details.blade.php">View Details</a>
 						<br class="clr"/>
 					</div>
 					<div class="span3 alignR">
@@ -358,8 +358,8 @@
 						<input type="checkbox">  Adds product to compair
 						</label><br/>
 						<div class="btn-group">
-						<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-						<a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
+						<a href="product_details.blade.php" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+						<a href="product_details.blade.php" class="btn btn-large"><i class="icon-zoom-in"></i></a>
 						</div>
 					</form>
 					</div>
@@ -377,7 +377,7 @@
 						Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies -
 						that is why our goods are so popular..
 						</p>
-						<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+						<a class="btn btn-small pull-right" href="product_details.blade.php">View Details</a>
 						<br class="clr"/>
 					</div>
 					<div class="span3 alignR">
@@ -387,8 +387,8 @@
 						<input type="checkbox">  Adds product to compair
 					</label><br/>
 				<div class="btn-group">
-				  <a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-				  <a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
+				  <a href="product_details.blade.php" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+				  <a href="product_details.blade.php" class="btn btn-large"><i class="icon-zoom-in"></i></a>
 				 </div>
 						</form>
 					</div>
@@ -406,7 +406,7 @@
 						Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies -
 						that is why our goods are so popular..
 						</p>
-						<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+						<a class="btn btn-small pull-right" href="product_details.blade.php">View Details</a>
 						<br class="clr"/>
 					</div>
 					<div class="span3 alignR">
@@ -416,8 +416,8 @@
 						<input type="checkbox">  Adds product to compair
 						</label><br/>
 						<div class="btn-group">
-						<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-						<a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
+						<a href="product_details.blade.php" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+						<a href="product_details.blade.php" class="btn btn-large"><i class="icon-zoom-in"></i></a>
 						</div>
 						</form>
 					</div>
@@ -436,7 +436,7 @@
 						Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies -
 						that is why our goods are so popular..
 						</p>
-						<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+						<a class="btn btn-small pull-right" href="product_details.blade.php">View Details</a>
 						<br class="clr"/>
 					</div>
 					<div class="span3 alignR">
@@ -446,8 +446,8 @@
 						<input type="checkbox">  Adds product to compair
 						</label><br/>
 						<div class="btn-group">
-						<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-						<a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
+						<a href="product_details.blade.php" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+						<a href="product_details.blade.php" class="btn btn-large"><i class="icon-zoom-in"></i></a>
 						</div>
 						</form>
 					</div>
@@ -465,7 +465,7 @@
 						Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies -
 						that is why our goods are so popular..
 						</p>
-						<a class="btn btn-small pull-right" href="product_details.html">View Details</a>
+						<a class="btn btn-small pull-right" href="product_details.blade.php">View Details</a>
 						<br class="clr"/>
 					</div>
 					<div class="span3 alignR">
@@ -475,8 +475,8 @@
 						<input type="checkbox">  Adds product to compair
 						</label><br/>
 						<div class="btn-group">
-						<a href="product_details.html" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
-						<a href="product_details.html" class="btn btn-large"><i class="icon-zoom-in"></i></a>
+						<a href="product_details.blade.php" class="btn btn-large btn-primary"> Add to <i class=" icon-shopping-cart"></i></a>
+						<a href="product_details.blade.php" class="btn btn-large"><i class="icon-zoom-in"></i></a>
 						</div>
 						</form>
 					</div>
@@ -487,73 +487,73 @@
 				<ul class="thumbnails">
 					<li class="span3">
 					  <div class="thumbnail">
-						<a href="product_details.html"><img src="themes/images/products/10.jpg" alt=""/></a>
+						<a href="product_details.blade.php"><img src="themes/images/products/10.jpg" alt=""/></a>
 						<div class="caption">
 						  <h5>Manicure &amp; Pedicure</h5>
 						  <p>
 							Lorem Ipsum is simply dummy text.
 						  </p>
-						  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+						  <h4 style="text-align:center"><a class="btn" href="product_details.blade.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 						</div>
 					  </div>
 					</li>
 					<li class="span3">
 					  <div class="thumbnail">
-						<a href="product_details.html"><img src="themes/images/products/11.jpg" alt=""/></a>
+						<a href="product_details.blade.php"><img src="themes/images/products/11.jpg" alt=""/></a>
 						<div class="caption">
 						  <h5>Manicure &amp; Pedicure</h5>
 						  <p>
 							Lorem Ipsum is simply dummy text.
 						  </p>
-						  <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+						  <h4 style="text-align:center"><a class="btn" href="product_details.blade.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 						</div>
 					  </div>
 					</li>
 					<li class="span3">
 					  <div class="thumbnail">
-						<a href="product_details.html"><img src="themes/images/products/12.jpg" alt=""/></a>
+						<a href="product_details.blade.php"><img src="themes/images/products/12.jpg" alt=""/></a>
 						<div class="caption">
 						  <h5>Manicure &amp; Pedicure</h5>
 						  <p>
 							Lorem Ipsum is simply dummy text.
 						  </p>
-						   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+						   <h4 style="text-align:center"><a class="btn" href="product_details.blade.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 						</div>
 					  </div>
 					</li>
 					<li class="span3">
 					  <div class="thumbnail">
-						<a href="product_details.html"><img src="themes/images/products/13.jpg" alt=""/></a>
+						<a href="product_details.blade.php"><img src="themes/images/products/13.jpg" alt=""/></a>
 						<div class="caption">
 						  <h5>Manicure &amp; Pedicure</h5>
 						  <p>
 							Lorem Ipsum is simply dummy text.
 						  </p>
-						   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+						   <h4 style="text-align:center"><a class="btn" href="product_details.blade.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 						</div>
 					  </div>
 					</li>
 					<li class="span3">
 					  <div class="thumbnail">
-						<a href="product_details.html"><img src="themes/images/products/1.jpg" alt=""/></a>
+						<a href="product_details.blade.php"><img src="themes/images/products/1.jpg" alt=""/></a>
 						<div class="caption">
 						  <h5>Manicure &amp; Pedicure</h5>
 						  <p>
 							Lorem Ipsum is simply dummy text.
 						  </p>
-						   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+						   <h4 style="text-align:center"><a class="btn" href="product_details.blade.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 						</div>
 					  </div>
 					</li>
 					<li class="span3">
 					  <div class="thumbnail">
-						<a href="product_details.html"><img src="themes/images/products/2.jpg" alt=""/></a>
+						<a href="product_details.blade.php"><img src="themes/images/products/2.jpg" alt=""/></a>
 						<div class="caption">
 						  <h5>Manicure &amp; Pedicure</h5>
 						  <p>
 							Lorem Ipsum is simply dummy text.
 						  </p>
-						   <h4 style="text-align:center"><a class="btn" href="product_details.html"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
+						   <h4 style="text-align:center"><a class="btn" href="product_details.blade.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">&euro;222.00</a></h4>
 						</div>
 					  </div>
 					</li>
