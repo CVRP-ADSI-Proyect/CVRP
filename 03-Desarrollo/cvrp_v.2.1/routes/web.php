@@ -25,15 +25,15 @@ Route::get('/', function () {
 
 
 
-Route::get('/offer', function () {
+Route::get('/ofertas', function () {
     return view('special_offer');
 })->name('offer');
 
-Route::get('/contact', function () {
+Route::get('/contacto', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/login', function () {
+Route::get('/iniciosesion', function () {
     return view('login');
 })->name('login');
 
@@ -51,4 +51,13 @@ Route::get('producto/editar/{id}',[ProductoController::class,'edit'])->name('pro
 Route::put('producto/{id}',[ProductoController::class,'update'])->name('producto.update');
 Route::delete('producto/{id}',[ProductoController::class,'destroy'])->name('producto.destroy');
 
-
+//footer
+Route::get('/avisolegal', function (){
+    return view('legal_notice');
+})->name('legal_notice');
+Route::get('/preguntasfrecuentes', function (){
+    return view('faq');
+})->name('faq');
+Route::get('/terminoscondiciones', function (){
+    return view('tac');
+})->name('tac');
