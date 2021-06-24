@@ -24,9 +24,9 @@
 			 </div>
 			<div id="socialMedia" class="span3 pull-right">
 				<h5>REDES SOCIALES</h5>
-				<a href="https://es-la.facebook.com/" target="_blank"><img width="60" height="60" src="themes/images/facebook.png" title="facebook" alt="facebook"/></a>
-				<a href="https://twitter.com/?lang=es" target="_blank"><img width="60" height="60" src="themes/images/twitter.png" title="twitter" alt="twitter"/></a>
-				<a href="https://www.youtube.com/?hl=ES" target="_blank"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
+				<a href="https://es-la.facebook.com/" target="_blank"><img width="60" height="60" src="{{URL::asset('themes/images/facebook.png')}}" title="facebook" alt="facebook"/></a>
+				<a href="https://twitter.com/?lang=es" target="_blank"><img width="60" height="60" src="{{URL::asset('themes/images/twitter.png')}}" title="twitter" alt="twitter"/></a>
+				<a href="https://www.youtube.com/?hl=ES" target="_blank"><img width="60" height="60" src="{{URL::asset('themes/images/youtube.png')}}" title="youtube" alt="youtube"/></a>
 			 </div>
 		 </div>
 		<p class="pull-right">&copy; CVRP</p>
