@@ -30,19 +30,20 @@
                 <form class="form-inline navbar-search" method="get" action="{{route ('producto.index')}}">
                     <input id="srchFld_" class="srchTxt" type="text" placeholder="Buscar..."/>
                     <select class="srchTxt">
-                        <option>Todo</option>
-                        <option>Herramientas</option>
-                        <option>Video juegos</option>
-                        <option>Joyeria</option>
+                        <option selected>Todo</option>
+                        <option>Cámaras</option>
                         <option>Deporte</option>
                         <option>Electrodomesticos</option>
+                        <option>Herramientas</option>
+                        <option>Joyeria</option>
+                        <option>Videojuegos</option>
                     </select>
                     <button type="submit" id="submitButton" class="btn btn-primary">Ir</button>
                 </form>
                 <ul id="topMenu" class="nav pull-right">
-                    <li class=""><a href="{{ url('/offer')}}">Ofertas especiales</a></li>
+                    <li class=""><a href="{{ url('/ofertas')}}">Ofertas especiales</a></li>
                     {{-- <li class=""><a href="normal.html">Test</a></li> --}}
-                    <li class=""><a href="{{url('/contact')}}">Contactanos</a></li>
+                    <li class=""><a href="{{url('/contacto')}}">Contactanos</a></li>
                     <li class="">
                         <a type="submit" href="{{ route ('login')}}" role="button"><span
                                 class="btn btn-large btn-success">Ingresar</span></a>

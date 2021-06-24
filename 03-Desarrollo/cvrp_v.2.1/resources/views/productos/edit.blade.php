@@ -76,15 +76,8 @@
                         </select>
                     </div>
                     <div class="col-3 mx-3">
-                        <label for="imagen">Imagen</label>
-                        <img src="{{Storage::url($producto->imagen)}}" alt="{{$producto->NombreProducto}}" width="100">
-                        <input type="file" class="form-control-file" name="imagen" id="imagen">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-3 mx-3">
                         <label for="categoria">categoria</label>
-                        <select name="categoria_id" id="categoria_id">
+                        <select class="form-control" name="categoria_id" id="categoria_id">
                             <option
                             @foreach($categorias as $categoria)
                                 @if($producto->categoria_id==$categoria->id)
@@ -94,6 +87,13 @@
                                 @endif
                             @endforeach
                         </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3 mx-3">
+                        <label for="imagen">Imagen</label>
+                        <img src="{{Storage::url($producto->imagen)}}" alt="{{$producto->NombreProducto}}" width="100">
+                        <input type="file" class="form-control-file" name="imagen" id="imagen">
                     </div>
                 </div>
                 <div class="form-row">

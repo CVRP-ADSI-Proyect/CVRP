@@ -5,8 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
 use App\Http\Controllers\ProductoController;
-
-
+use App\Http\Controllers\HeaderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +21,6 @@ use App\Http\Controllers\ProductoController;
 Route::get('/', function () {
     return view('index');
 })->name('main');
-
 
 
 Route::get('/ofertas', function () {
@@ -43,21 +41,21 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 // Productos
-Route::get('productos',[ProductoController::class,'index'])->name('producto.index');
-Route::get('producto/crear',[ProductoController::class,'create'])->name('producto.create');
-Route::post('producto',[ProductoController::class,'store'])->name('producto.store');
-Route::get('producto/{id}',[ProductoController::class,'show'])->name('producto.show');
-Route::get('producto/editar/{id}',[ProductoController::class,'edit'])->name('producto.edit');
-Route::put('producto/{id}',[ProductoController::class,'update'])->name('producto.update');
-Route::delete('producto/{id}',[ProductoController::class,'destroy'])->name('producto.destroy');
+Route::get('productos', [ProductoController::class, 'index'])->name('producto.index');
+Route::get('producto/crear', [ProductoController::class, 'create'])->name('producto.create');
+Route::post('producto', [ProductoController::class, 'store'])->name('producto.store');
+Route::get('producto/{id}', [ProductoController::class, 'show'])->name('producto.show');
+Route::get('producto/editar/{id}', [ProductoController::class, 'edit'])->name('producto.edit');
+Route::put('producto/{id}', [ProductoController::class, 'update'])->name('producto.update');
+Route::delete('producto/{id}', [ProductoController::class, 'destroy'])->name('producto.destroy');
 
 //footer
-Route::get('/avisolegal', function (){
+Route::get('/avisolegal', function () {
     return view('legal_notice');
 })->name('legal_notice');
-Route::get('/preguntasfrecuentes', function (){
+Route::get('/preguntasfrecuentes', function () {
     return view('faq');
 })->name('faq');
-Route::get('/terminoscondiciones', function (){
+Route::get('/terminoscondiciones', function () {
     return view('tac');
 })->name('tac');

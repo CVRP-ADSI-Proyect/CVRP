@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- Header====================================================================== -->
-@include ('header/header')
+@include ('header.header')
 <!-- Header End====================================================================== -->
 <div class="container">
     <div class="row">

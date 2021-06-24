@@ -40,22 +40,15 @@ class ProductoController extends Controller
 
     public function show($id)
     {
-
         $producto = Producto::find($id)->where('id', $id)->first();
-
         return view('productos.show', compact('producto'));
-
-
     }
 
     public function edit($id)
     {
-
         $producto = Producto::find($id)->where('id', $id)->first();
         $categorias = Categoria::all();
         return view('productos.edit', compact('producto', 'categorias'));
-
-
     }
 
     public function update(Request $request, $id)
