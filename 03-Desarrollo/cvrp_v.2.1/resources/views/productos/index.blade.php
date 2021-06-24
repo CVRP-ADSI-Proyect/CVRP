@@ -17,7 +17,8 @@
         <div class="my-3">
             <form action="{{route('producto.index')}}" method="get">
                 @csrf
-                <input class="span4" type="text" name="name_product" id="" placeholder="Escriba nombre de Producto: Chaqueta">
+                <input class="span4" type="text" name="name_product" id=""
+                       placeholder="Escriba nombre de Producto: Chaqueta">
                 <button type="submit" class="btn btn-success">Filtrar</button>
             </form>
         </div>
@@ -47,8 +48,8 @@
                     <th>{{$producto->cantidad}}</th>
                     <th>{{$producto->estado}}</th>
                     <th>{{$producto->descripcion}}</th>
-                    <th>{{$producto->valor}}</th>
-                    <th><img width="200" height="200" src="{{asset('storage').'/'. $producto->imagen}}"
+                    <th>{{"$ ".number_format($producto->valor,0)}}</th>
+                    <th><img width="100" src="{{ Storage::url($producto->imagen)}}"
                              alt="{{$producto->NombreProducto}}"></th>
                     <th>{{$producto->disponible}}</th>
                     <th>{{$producto->categoria->NombreCategoria}}</th>

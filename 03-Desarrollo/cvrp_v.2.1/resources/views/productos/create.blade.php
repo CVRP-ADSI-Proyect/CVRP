@@ -25,42 +25,53 @@
                     </div>
                     <div class="col-3 mx-3">
                         <label for="cantidad">Cantidad</label>
-                        <input type="text" class="form-control" name="cantidad" id="cantidad" onkeyup="formatoMilesimas(this)" onchange="formatoMilesimas(this)" required>
+                        <input type="text" class="form-control" name="cantidad" id="cantidad"
+                               onkeyup="formatoMilesimas(cantidad)" onchange="formatoMilesimas(cantidad)" required>
                     </div>
                     <div class="col-3 mx-3">
                         <label for="estado">Estado</label>
-                        <input type="text" class="form-control" name="estado" id="" required>
+                        <select name="estado" id="estado" class="form-control" required>
+                            <option value="" selected>--Selecionar--</option>
+                            <option value="Nuevo">Nuevo</option>
+                            <option value="Usado">Usado</option>
+                        </select>
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="col-3 mx-3">
-                        <label for="descripcion">Descripcion</label>
-                        <input type="text" class="form-control" name="descripcion" id="" required>
-                    </div>
                     <div class="col-3 mx-3">
                         <label for="valor">Valor</label>
-                        <input type="text" class="form-control" name="valor" id="valor" onkeyup="formatoMilesimas(valor)" onchange="formatoMilesimas(valor)" required>
+                        <input type="text" class="form-control" name="valor" id="valor"
+                               onkeyup="formatoMilesimas(valor)" onchange="formatoMilesimas(valor)" required>
                     </div>
-                    <div class="col-3 mx-3">
-                        <label for="imagen">Imagen</label>
-                        <input type="file" class="form-control-file" name="imagen" id="" required>
-                    </div>
-                </div>
-                <div class="form-row">
                     <div class="col-3 mx-3">
                         <label for="disponible">Disponible</label>
-                        <select class="form-control" name="disponible" id="" required>
-                            <option value="si">Si</option>
-                            <option value="no">No</option>
+                        <select class="form-control" name="disponible" id="disponible" required>
+                            <option value="" selected>--Selecionar--</option>
+                            <option value="SI">Si</option>
+                            <option value="NO">No</option>
                         </select>
                     </div>
                     <div class="col-3 mx-3">
+                        <label for="imagen">Imagen</label>
+                        <input type="file" class="form-control-file" name="imagen" id="imagen" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3 mx-3">
                         <label for="categoria">Categoria</label>
-                        <select class="form-control" name="categoria_id" id="" required>
+                        <select class="form-control" name="categoria_id" id="categoria_id" required>
+                            <option value="" selected>--Selecionar--</option>
                             @foreach($categorias as $categoria)
                                 <option value="{{$categoria->id}}">{{$categoria->NombreCategoria}}</option>
                             @endforeach
                         </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-10 mx-3">
+                        <label for="descripcion">Descripcion</label>
+                        <textarea class="form-control " name="descripcion" id="descripcion" rows="3"
+                                  required></textarea>
                     </div>
                 </div>
                 <br>
